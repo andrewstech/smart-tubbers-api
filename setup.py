@@ -9,12 +9,12 @@ except InstallationError:
     install_requires = []
 
 try:
-    long_description = open("README.rst").read()
+    long_description = open("README.md").read()
 except IOError:
     long_description = ""
 
 setup(
-    name="smart-tuber",
+    name="smart_tubers",
     version="0.1.0",
     description="Get latest video upload name of smart home youtubers",
     license="MIT",
